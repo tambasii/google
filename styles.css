@@ -17,3 +17,8 @@ body {
   display: flex;
   flex-direction: column;
 }
+/* Header */
+header {
+  border: 1px solid red;
+  height: 60px;
+}
