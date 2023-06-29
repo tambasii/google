@@ -230,9 +230,51 @@ footer {
 /* Mobile and tablet */
 
 @media only screen and (max-width: 650px) {
+  /* Navbar */
+  .navbar ul {
+    font-size: 10px;
+  }
+
+  .menu-icon,
+  .user-icon span {
+    font-size: 14px;
+  }
+
+  .circle-shadow {
+    height: 30px;
+    width: 30px;
+  }
+
+  /* Logo */
+  .logo-img {
+    width: 200px;
+  }
   /*search bar*/
   .search-bar {
     width: 90%;
+    height: 35px;
+  }
+
+  .search-bar i {
+    font-size: 14px;
+  }
+  /* Buttons */
+  .search-button button {
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .google-search {
+    width: 100px;
+  }
+
+  .lucky-search {
+    width: 120px;
+  }
+
+  /* Language */
+  .language {
+    font-size: 12px;
   }
 
   /* Footer */
@@ -247,5 +289,9 @@ footer {
   .lower-footer {
     height: 100px;
     flex-direction: column;
+  }
+
+  .lower-left-footer {
+    flex-wrap: wrap;
   }
 }
