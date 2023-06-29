@@ -118,7 +118,7 @@ header {
 .search-bar i {
   font-size: 18px;
   color: gray;
-  margin-right: 15px;
+  margin-right: 8px;
   cursor: pointer;
 }
 
@@ -257,6 +257,7 @@ footer {
 
   .search-bar i {
     font-size: 14px;
+    margin-right: 8px;
   }
   /* Buttons */
   .search-button button {
